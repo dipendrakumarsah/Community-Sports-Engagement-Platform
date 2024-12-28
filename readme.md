@@ -25,16 +25,12 @@ The Community Sports Engagement Platform is a MERN-based web and mobile applicat
 ### Step 3: Environment Setup
 - **Frontend**:
   1. Install Node.js and npm.
-  2. Create a React.js project using `npx create-react-app`.
+  2. Create a React.js project using `npx create-next-app@latest`.
   3. Install UI libraries like Material-UI or Ant Design.
 
 - **Backend**:
   1. Initialize a Node.js project using `npm init`.
   2. Install required packages: Express, Mongoose, dotenv, and bcrypt.
-
-- **Mobile App**:
-  1. Set up React Native using `npx react-native init`.
-  2. Install libraries for navigation and UI (React Navigation, NativeBase).
 
 - **AI System**:
   1. Install Python and set up a virtual environment.
@@ -147,7 +143,4 @@ The Community Sports Engagement Platform is a MERN-based web and mobile applicat
 - Submit detailed pull requests for review.
 
 ---
-
-This roadmap provides a structured approach to developing the Community Sports Engagement Platform, ensuring robust functionality and an engaging user experience.
-
 
