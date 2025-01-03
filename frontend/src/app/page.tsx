@@ -1,12 +1,24 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import Hero from '@/components/landing/Hero'
+import About from '@/components/landing/About'
+import Features from '@/components/landing/Features'
+import HowItWorks from '@/components/landing/HowItWorks'
+import Testimonials from '@/components/landing/Testimonials'
+import UpcomingEvents from '@/components/landing/UpcomingEvents'
+import AppDownload from '@/components/landing/AppDownload'
+import Contact from '@/components/landing/Contact'
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-      <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-      <Button>Click me</Button>
-    </div>
-  );
+    <main>
+      <Hero />
+      <About />
+      <Features />
+      <HowItWorks />
+      <Testimonials />
+      <UpcomingEvents />
+      <AppDownload />
+      <Contact />
+    </main>
+  )
 }
+
